@@ -51,7 +51,7 @@ We recommend using [virtual environments](https://packaging.python.org/guides/in
 5. Create a table with supplied parameters
     ![databricks-create-table.png](./images/databricks-create-table.png)
 
-6. Run Notebook
+6. Run `Security and Privacy in Data Engineering Databricks` Notebook
 
 ## Outline
 
