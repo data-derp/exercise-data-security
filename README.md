@@ -8,8 +8,23 @@ When do we need to worry about privacy as we move data across an organization? H
 
 This notebook / video aims to start approaching these questions as you learn data engineering basics. Unfortunately, there is no cookie-cutter answer, and many of these questions you will ask again and again as you deepen your knowledge and experience with data work. Let this section of your training be an open invitation to think on these principles and get to know them better via your work!
 
-### Installation
+### Quickstart
 
+```
+git clone git@github.com:data-derp/exercise-data-security.git
+docker run  -p 8888:8888 -v $(pwd):/app -it ghcr.io/data-derp/dev-container:master bash
+```
+
+In the Docker container
+```
+cd /app
+pip install -r requirements.txt
+jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
+```
+Then navigate to the `localhost` address (don't forget the token) that the juypter console spins up.
+
+
+### Installation
 Please utilize the included `requirements.txt` to install your requirements using `pip` (you can also do so in `conda`. The notebooks have *only* been tested with Python 3. 🙌🏻
 
 We recommend using [virtual environments](https://packaging.python.org/guides/installing-using-pip-and-virtualenv/) or [conda environments](https://conda.io/docs/user-guide/tasks/manage-environments.html). 
