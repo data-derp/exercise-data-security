@@ -36,22 +36,8 @@ pip install -r requirements.txt
 We recommend using [virtual environments](https://packaging.python.org/guides/installing-using-pip-and-virtualenv/) or [conda environments](https://conda.io/docs/user-guide/tasks/manage-environments.html). 
 
 ### Databricks
-1. Open [Security and Privacy in Data Engineering Databricks.dbc](./Security and Privacy in Data Engineering Databricks.dbc) in [Databricks Community Edition](https://community.cloud.databricks.com/)
+Open [Security and Privacy in Data Engineering Databricks.dbc](./Security and Privacy in Data Engineering Databricks.dbc) in [Databricks Community Edition](https://community.cloud.databricks.com/)
       ![databricks-import](./images/databricks-import.png)
-
-2. Create table with `data/air_quality.csv`
-    ![databricks-click-create-table.png](./images/databricks-click-create-table.png)
-
-3. Import CSV
-    ![databricks-import-table.png](./images/databricks-import-table.png)
-
-4. Choose a cluster
-   ![databricks-cluster.png](./images/databricks-cluster.png)
-
-5. Create a table with supplied parameters
-    ![databricks-create-table.png](./images/databricks-create-table.png)
-
-6. Run `Security and Privacy in Data Engineering Databricks` Notebook
 
 ## Outline
 
