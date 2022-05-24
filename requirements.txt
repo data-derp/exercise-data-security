@@ -1,3 +1,4 @@
 pandas
-jupyter
+notebook
 ff3
+datafuzz
