@@ -36,7 +36,7 @@ pip install -r requirements.txt
 We recommend using [virtual environments](https://packaging.python.org/guides/installing-using-pip-and-virtualenv/) or [conda environments](https://conda.io/docs/user-guide/tasks/manage-environments.html). 
 
 ### Databricks
-Open [Security and Privacy in Data Engineering Databricks.dbc](./Security and Privacy in Data Engineering Databricks.dbc) in [Databricks Community Edition](https://community.cloud.databricks.com/)
+Open [Security and Privacy in Data Engineering Databricks.dbc](./Security%20and%20Privacy%20in%20Data%20Engineering%20Databricks.dbc) in [Databricks Community Edition](https://community.cloud.databricks.com/)
       ![databricks-import](./images/databricks-import.png)
 
 ## Outline
