@@ -23,6 +23,8 @@ jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
 ```
 Then navigate to the `localhost` address (don't forget the token) that the juypter console spins up.
 
+Click on `Security and Privacy in Data Engineering - Spark Version.ipynb`
+
 
 ### Installation
 Please utilize the included `requirements.txt` to install your requirements using `pip` (you can also do so in `conda`. The notebooks have *only* been tested with Python 3. 🙌🏻
