@@ -2,43 +2,6 @@
 
 Here are some notebooks that will guide us in learning data privacy and security topics in relation to data engineering. These are included as a starting point to help you along your journey in learning Data Engineering as part of the Data Derp exercises!
 
-## Motivation
-
-When do we need to worry about privacy as we move data across an organization? How can we enable private-by-design pipelines? When should we get in touch with security peers and teammembers to better advise on the data we are moving and storing? 
-
-This notebook / video aims to start approaching these questions as you learn data engineering basics. Unfortunately, there is no cookie-cutter answer, and many of these questions you will ask again and again as you deepen your knowledge and experience with data work. Let this section of your training be an open invitation to think on these principles and get to know them better via your work!
-
-## Quickstart
-
-### Local Docker Container
-```
-git clone git@github.com:data-derp/exercise-data-security.git
-docker run  -p 8888:8888 -v $(pwd):/app -it ghcr.io/data-derp/dev-container:master bash
-```
-
-In the Docker container
-```
-cd /app
-pip install -r requirements.txt
-jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
-```
-Then navigate to the `localhost` address (don't forget the token) that the juypter console spins up.
-
-Click on `Security and Privacy in Data Engineering.ipynb` or `Security and Privacy in Data Engineering - Spark Version.ipynb`
-
-
-### Local Machine
-Please utilize the included `requirements.txt` to install your requirements using `pip` (you can also do so in `conda`. The notebooks have *only* been tested with Python 3. 🙌🏻
-```bash
-pip install -r requirements.txt
-```
-
-We recommend using [virtual environments](https://packaging.python.org/guides/installing-using-pip-and-virtualenv/) or [conda environments](https://conda.io/docs/user-guide/tasks/manage-environments.html). 
-
-### Databricks
-Open [Security and Privacy in Data Engineering Databricks.dbc](./Security%20and%20Privacy%20in%20Data%20Engineering%20Databricks.dbc) in [Databricks Community Edition](https://community.cloud.databricks.com/)
-      ![databricks-import](./images/databricks-import.png)
-
 ## Outline
 
 Agenda
@@ -52,6 +15,30 @@ Agenda
 Extra Materials
 - Generating Example Data notebook (this should not be required to use and has additional software dependencies)
 
+## Motivation
+
+When do we need to worry about privacy as we move data across an organization? How can we enable private-by-design pipelines? When should we get in touch with security peers and teammembers to better advise on the data we are moving and storing? 
+
+This notebook / video aims to start approaching these questions as you learn data engineering basics. Unfortunately, there is no cookie-cutter answer, and many of these questions you will ask again and again as you deepen your knowledge and experience with data work. Let this section of your training be an open invitation to think on these principles and get to know them better via your work!
+
+## Quickstart
+
+1. Set up a [Databricks Account](https://github.com/data-derp/documentation/blob/master/databricks/README.md) if you don't already have one
+2. [Create a cluster](https://github.com/data-derp/documentation/blob/master/databricks/setup-cluster.md) if you don't already have one
+
+3. In your User's workspace, click import
+
+   ![databricks-import](https://github.com/data-derp/documentation/blob/master/databricks/assets/databricks-import.png?raw=true)
+
+4. Import the `Security and Privacy in Data Engineering Databricks.dbc` notebook using the URL method: `https://github.com/data-derp/exercise-data-security/blob/master/Security%20and%20Privacy%20in%20Data%20Engineering%20Databricks.dbc?raw=true`
+
+   ![databricks-import-url](https://github.com/data-derp/documentation/blob/master/databricks/assets/databricks-import-url.png?raw=true)
+
+5. Select your cluster
+
+   ![databricks-select-cluster.png](https://github.com/data-derp/documentation/blob/master/databricks/assets/databricks-select-cluster.png?raw=true)
+
+6. Follow instructions
 
 ## Questions?
 
