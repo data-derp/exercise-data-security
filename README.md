@@ -9,13 +9,14 @@ When do we need to worry about privacy as we move data across an organization? H
 
 This notebook / video aims to start approaching these questions as you learn data engineering basics. Unfortunately, there is no cookie-cutter answer, and many of these questions you will ask again and again as you deepen your knowledge and experience in data work. Let this section of your training be an open invitation to think on these principles and get to know them better via your work!
 
-## Agenda
+## Outline
+### Agenda
 
 - Security and Privacy in Data Engineering (follow the [Quickstart](#quickstart) guide and follow along with the video)
 - Use the example Databricks notebook to get started, try to recreate the same steps in Spark, how would you do it?
 - If you get stuck or want to compare notes, please look at the hints in the solutions folder. There is a notebook with one way to solve the same steps (see: Security and Privacy in Data Engineering - Spark Version).
 
-## Extra Materials
+### Extra Materials
 - Generating Example Data notebook (this should not be required to use and has additional software dependencies)
 
 
