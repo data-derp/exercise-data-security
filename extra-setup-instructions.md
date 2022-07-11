@@ -22,4 +22,4 @@ Please utilize the included `requirements.txt` to install your requirements usin
 pip install -r requirements.txt
 ```
 
-We recommend using [virtual environments](https://packaging.python.org/guides/installing-using-pip-and-virtualenv/) or [conda environments](https://conda.io/docs/user-guide/tasks/manage-environments.html). 
+It is recommended that you use [virtualenv](https://virtualenv.pypa.io/en/latest/) or [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) when running and installing Python packages on your machine!
