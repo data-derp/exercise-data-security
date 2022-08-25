@@ -10,6 +10,7 @@ When do we need to worry about privacy as we move data across an organization? H
 This notebook / video aims to start approaching these questions as you learn data engineering basics. Unfortunately, there is no cookie-cutter answer, and many of these questions you will ask again and again as you deepen your knowledge and experience in data work. Let this section of your training be an open invitation to think on these principles and get to know them better via your work!
 
 ## Outline
+
 ### Agenda
 
 - Security and Privacy in Data Engineering (follow the [Quickstart](#quickstart) guide and follow along with the video)
@@ -37,6 +38,12 @@ This notebook / video aims to start approaching these questions as you learn dat
 6. Follow along with the video.
 
 7. Clone your notebook and convert the steps to Spark!
+
+## Recommended Reading & Further Study 
+
+- [Practical Data Privacy](https://learning.oreilly.com/library/view/practical-data-privacy/9781098129453/) and [accompanying repository](https://github.com/kjam/practical-data-privacy)
+- [Introduction to Anonymization via Differential Privacy](https://desfontain.es/privacy/friendly-intro-to-differential-privacy.html)
+- [OpenMined: Foundations of Private Computation](https://courses.openmined.org/courses/foundations-of-private-computation) 
 
 ## Questions?
 
