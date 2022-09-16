@@ -30,7 +30,7 @@ This notebook / video aims to start approaching these questions as you learn dat
 
    ![databricks-import](https://github.com/data-derp/documentation/blob/master/databricks/assets/databricks-import.png?raw=true)
 
-4. Import the `Security and Privacy in Data Engineering.dbc` notebook using the URL method: `https://github.com/data-derp/exercise-data-security/blob/master/Security%20and%20Privacy%20in%20Data%20Engineering.dbc`
+4. Import the `Security and Privacy in Data Engineering.dbc` notebook using the URL method: `https://github.com/data-derp/exercise-data-security/blob/e5da49ac302dc7ed25107f786f982d53ff192db0/Security%20and%20Privacy%20in%20Data%20Engineering.dbc?raw=true`
 
 5. Select your cluster
  ![databricks-select-cluster.png](https://github.com/data-derp/documentation/blob/master/databricks/assets/databricks-select-cluster.png?raw=true)
